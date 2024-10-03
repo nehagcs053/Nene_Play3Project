@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/nehagcs053/Nene_Play3Project
   gitUsername: nehagcs053
   gitBranch: main
+services:
+- serviceName: project.nene_play3.integrations:TestVersionControl
+  packages:
+  - name: Nene_Play3Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1018
